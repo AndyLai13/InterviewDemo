@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:x="http://com.andylai.interviewdemo"
+	android:id="@+id/container"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_anno_drag_top" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationPressedButton
+		android:id="@+id/pen"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_pen" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationPressedButton
+		android:id="@+id/highlighter"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_brush" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationPressedButton
+		android:id="@+id/eraser"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_eraser" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationBasicButton
+		android:id="@+id/undo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_undo" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationBasicButton
+		android:id="@+id/redo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_redo" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationBasicButton
+		android:id="@+id/delete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_delete" />
+
+	<com.andylai.interviewdemo.annotation.AnnotationBasicButton
+		android:id="@+id/save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_save"/>
+
+	<com.andylai.interviewdemo.annotation.AnnotationBasicButton
+		android:id="@+id/close"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:icon="@drawable/ic_anno_close"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_anno_drag_bottom" />
+</LinearLayout>

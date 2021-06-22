@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InterviewDemo</string>
+    <string name="lap">Lap</string>
+    <string name="maximum_lap">Lap (The maximum laps is 10)</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="time_is_up">Time\'s up</string>
+    <string name="zero_time">00:00:00</string>
+</resources>

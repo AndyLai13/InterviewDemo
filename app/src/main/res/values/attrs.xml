@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="colorType" format="enum">
+		<enum name="pen" value="0" />
+		<enum name="highlighter" value="1" />
+	</attr>
+
+	<declare-styleable name="ColorPickerRadioGroup">
+		<attr name="colorType" />
+	</declare-styleable>
+
+	<attr name="selectBackground" format="reference" />
+	<attr name="icon" format="reference" />
+
+	<declare-styleable name="AnnotationBasicButton">
+		<attr name="icon"/>
+	</declare-styleable>
+
+	<declare-styleable name="AnnotationPressedButton">
+		<attr name="icon"/>
+	</declare-styleable>
+</resources>
